@@ -27,7 +27,7 @@ except(SSHException):
 
 """
 def Getrun():
-    from netmiko imgit port ConnectHandler
+    from netmiko import ConnectHandler
     import getpass
     import os
     import datetime
